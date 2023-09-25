@@ -1,0 +1,450 @@
+<html lang="pt-br">
+
+<head>
+
+<title>Peach Blog</title>
+
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<link rel="icon" href="sinete.png">
+
+<!-- Estilo customizado -->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<style>
+
+    body #home{
+        border: 1px solid whith;
+        height: 100%;  
+    }
+
+    body{ background:
+        url(fundo.png),
+        url(ruido.png),
+        linear-gradient(80deg, brown, peachpuff);
+        background-attachment: fixed;
+    }
+
+    nav.navbar-transparente{
+        padding: 15px 0px;
+        background:  rgba(255, 218, 185, 0.6);
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: brown;
+    }
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: peachpuff;
+}
+
+.capa{
+    text-align: center;
+}
+
+.btn-custom{
+    color:brown;
+    border-radius: 500px;
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+    text-transform: uppercase;
+    transition: 0.4s, color 04s;
+    padding:10px 15px;
+}
+
+.btn-azul{
+    background: peachpuff;
+}
+
+.btn-azul:hover{
+    background: #ec98a6;
+    color:white;
+}
+
+h1{
+    font-weight: 900;
+    margin-bottom: 50px;
+    color:rgb(255, 255, 255, 0.6);
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#servicos{
+    background:peachpuff;
+    padding-top:20px;
+    padding-bottom:20px;    
+}
+
+.caixa{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#recursos{
+    padding-top:20px;
+    padding-bottom:20px;
+
+}
+
+#recursos h2{
+    color:peachpuff;
+}
+
+#recursos h3{
+    color:peachpuff;
+}
+
+.albuns{
+    padding:10px 0px;
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    padding-left:200px;
+}
+
+footer{
+    linear-gradient:(80deg, brown, peachpuff);
+    padding:50px 0px 20px 0px;
+}
+
+footer h4{
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+    color:white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover{
+    color:white;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    float:right;
+    margin:0px 10px;
+}
+
+@media (min-width: 576px) { 
+    h1{
+        font-size:3em}
+ }
+
+@media (min-width: 768px) { 
+    h1{
+        font-size:4em}
+ }
+
+@media (min-width: 992px) { 
+    h1{
+        font-size:5em}
+ }
+
+@media (min-width: 1200px) {
+    h1{
+        font-size:6em}
+ }
+
+</style>
+
+</head>
+
+<body >
+
+    <header><!-- inicio Cabecalho -->
+
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top navbar-transparente">
+
+          <div class="container">  
+
+            <a href="#" class="navbar-brand">
+
+              <img src="pessego sem fundo.png" width="142">
+
+            </a>
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+
+              <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav-principal">
+
+              <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+
+                  <a href="" class="nav-link">Home</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                  <a href="" class="nav-link">Catálogo</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                  <a href="" class="nav-link">Galeria</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                  <a href="" class="nav-link">Contato</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                  <a href="" class="btn btn-outline-light ml-4">Entrar</a>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </nav>
+
+      </header><!--/fim Cabecalho -->
+
+      <section id="home" class="d-flex">
+
+        <div class="container align-self-center">
+
+            <div class="row">
+
+                <div class="col-md-12 capa">
+
+                    <h1>Peach Blog</h1>
+
+                    <a href="#" class= "btn btn-lg btn-custom btn-azul">Compre seu Pessegueiro</a>
+
+                    <a href="#" class= "btn btn-lg btn-custom btn-azul">Venda seu Pessegueiro</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+      </section>
+
+      <section id="servicos">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <div class="row albuns">
+
+                        <div class="col-md-6">
+
+                            <img src="pessego1.jpg" width="250" height="250" class="img-fluid d-none d-md-block">
+
+                        </div>
+
+                        <div class="col-md-4">
+
+                            <img src="pessego2.jpg" width="250" height="250" class="d-none d-md-block">
+
+                        </div>
+
+                    </div>
+
+                    <div class="row albuns">
+
+                        <div class="col-md-6">
+
+                            <img src="pessego3.jpg" width="250" height="250" class="img-fluid d-none d-md-block">
+
+                        </div>
+
+                        <div class="col-md-4">
+
+                            <img src="pessego4.jpg" width="250" height="250" class="d-none d-md-block">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <h2>Pêssegos</h2>
+
+                    <h3>Origem</h3>
+
+                    <p>Pêssegos são frutas que existem a mais de 4 mil anos. Tendo origem na china, pêssegos são benéficos não só para humanos, mas também para animais</p>
+
+                    <h3>Benefícios</h3>
+
+                    <p>Pêssegos são extremamente benéficos para a saúde, pois estes queridinhos do público possuem fibras e baixas calorias além de fazerem bem a pele e ao intestino.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+      </section>
+
+
+      <section id="recursos">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4">
+
+                    <h2>Aprenda mais</h3>
+
+                    <h3>Curiosidades sobre Pêssegos</h2>
+
+                    <p>Pêssegos são considerados frutos dos deuses, tento ligação com imortalide.</p>
+
+                    <p>Os pessegueiros podem chegar a ter até 6 metros de altura e esta árvore frutifera gera flores e frtutos somente uma vez ao ano. </p>
+                </div>
+
+                <div class="col-md-8">
+
+                    <div class="row rotacionar">
+
+                        <div class="col-md-4">
+
+                            <img src="pessego sem fundo.png" width="250" height="250"idth="150x" height="200px" class="img-fluid">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+      </section>
+
+
+      <footer>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-2">
+
+                    <img src="pessego sem fundo.png" width="150" height="150">
+
+                </div>
+
+                <div class="col-md-2">
+
+                    <h4>Principal</h4>
+
+                    <ul class="navbar-nav">
+
+                        <li> <a href="#">Sobre</a></li>
+
+                        <li> <a href="#">Contato</a></li>
+
+                        <li> <a href="#">Endereço</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-2">
+
+                    <h4>Grupos</h4>
+
+                    <ul class="navbar-nav">
+
+                        <li> <a href="#">Sobre</a></li>
+
+                        <li> <a href="#">Contato</a></li>
+
+                        <li> <a href="#">Endereço</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-2">
+
+                    <h4>Links úteis</h4>
+
+                    <ul class="navbar-nav">
+
+                        <li> <a href="#">Sobre</a></li>
+
+                        <li> <a href="#">Contato</a></li>
+
+                        <li> <a href="#">Endereço</a></li>
+
+                    </ul>  
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <ul>
+
+                        <li>
+
+                            <a href="#"><img src="facebook.png" width="50" height="50"></a>
+
+                        </li>
+
+                        <li><a href="#"><img src="twitter.png" width="50" height="50"></a>
+
+                        </li>
+
+                        <li><a href="#"><img src="instagram.png" width="50" height="1'50"></a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+      </footer>
+
+</body>
+</html>
